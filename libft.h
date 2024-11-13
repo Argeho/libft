@@ -6,7 +6,7 @@
 /*   By: ahornstr <ahornstr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/22 13:48:02 by ahornstr          #+#    #+#             */
-/*   Updated: 2022/11/11 14:04:31 by ahornstr         ###   ########.fr       */
+/*   Updated: 2024/11/13 14:22:02 by ahornstr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,5 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-
+int		ft_strcmp(char *s1, char *s2);
 #endif
